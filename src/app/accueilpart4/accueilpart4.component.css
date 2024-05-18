@@ -1,0 +1,139 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+.captureDEcran20243251929111 {
+  position: absolute;
+  left: 0;
+  top: 3095px;
+  width: 1440px;
+  height: 564.8147px;
+  background-image: url('../accueilpart4/Capture\ d’écran\ 2024-03-25\ 192911\ 1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle297 {
+  position: absolute;
+  left: 160px;
+  top: 3297.7607px;
+  width: 386px;
+  height: 312px;
+  overflow: visible;
+  border-radius: 15px;
+  background-color: #faf5f5;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.explorezNosCollectionsSoigneus {
+  position: absolute;
+  left: 202px;
+  top: 3314px;
+  width: 304px;
+  height: 179px;
+  flex-direction: column;
+}
+.textBlock {
+  color: #000;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock2 {
+  margin-top: 0;
+  color: #000;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock3 {
+  margin-top: 0;
+  color: #000;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock4 {
+  margin-top: 0;
+  color: #000;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock5 {
+  margin-top: 0;
+  color: #000;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.rectangle298 {
+  position: absolute;
+  left: 202.0273px;
+  top: 3512.8711px;
+  width: 233.1528px;
+  height: 59.5319px;
+  border-radius: 10px;
+  background-color: #bf8c60;
+}
+.enSavoirPlus {
+  color: #fff;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 235.0488px;
+  top: 3524.7776px;
+  width: 168.1102px;
+  height: 35.7191px;
+  flex-direction: column;
+}

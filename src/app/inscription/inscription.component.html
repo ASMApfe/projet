@@ -1,0 +1,114 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="text-center my-5">
+            <h1 class="creerMonCompte">Créer mon compte</h1>
+        </div>
+        <form class="form" action="#" method="post" onsubmit="return verif()">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nom">Nom *</label>
+                    <input type="text" class="form-control" id="nom" name="nom" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="prenom">Prénom *</label>
+                    <input type="text" class="form-control" id="prenom" name="prenom" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="nomUtilisateur">Nom utilisateur *</label>
+                <input type="text" class="form-control" id="nomUtilisateur" name="nomUtilisateur" required>
+            </div>
+            <div class="form-group position-relative">
+                <label for="motDePasse">Mot de passe *</label>
+                <input type="password" class="form-control" id="motDePasse" name="motDePasse" required>
+                
+            </div>
+            <div class="form-group position-relative">
+                <label for="confirmationMotDePasse">Confirmation Mot de passe *</label>
+                <input type="password" class="form-control" id="confirmationMotDePasse" name="confirmationMotDePasse" required>
+               
+            </div>
+            <div class="form-group">
+                <label for="numeroDeTelephone">Numéro de téléphone *</label>
+                <input type="text" class="form-control" id="numeroDeTelephone" name="numeroDeTelephone" required>
+            </div>
+            <div class="form-group">
+                <label for="adresseEmail">Adresse email *</label>
+                <input type="email" class="form-control" id="adresseEmail" name="adresseEmail" required>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="newsletter" name="newsletter">
+                <label for="newsletter" class="form-check-label">Je souhaite recevoir les informations de WoodlyMood par newsletter.</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block creerMonCompte2">Créer mon compte</button>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function verif() {
+            var nom = document.getElementById("nom").value;
+            var prenom = document.getElementById("prenom").value;
+            var nomUtilisateur = document.getElementById("nomUtilisateur").value;
+            var motDePasse = document.getElementById("motDePasse").value;
+            var confirmationMotDePasse = document.getElementById("confirmationMotDePasse").value;
+            var numeroDeTelephone = document.getElementById("numeroDeTelephone").value;
+            var adresseEmail = document.getElementById("adresseEmail").value;
+
+            if (nom === "") {
+                alert("Veuillez taper votre nom!");
+                return false;
+            }
+            if (prenom === "") {
+                alert("Veuillez taper votre prénom!");
+                return false;
+            }
+            if (nomUtilisateur === "") {
+                alert("Veuillez taper votre nom d'utilisateur!");
+                return false;
+            }
+            if (motDePasse === "") {
+                alert("Veuillez taper votre mot de passe!");
+                return false;
+            }
+            if (confirmationMotDePasse === "") {
+                alert("Veuillez confirmer votre mot de passe!");
+                return false;
+            }
+            if (motDePasse !== confirmationMotDePasse) {
+                alert("Les mots de passe ne correspondent pas!");
+                return false;
+            }
+            if (numeroDeTelephone === "") {
+                alert("Veuillez taper votre numéro de téléphone!");
+                return false;
+            }
+            if (adresseEmail === "") {
+                alert("Veuillez entrer votre adresse e-mail!");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+

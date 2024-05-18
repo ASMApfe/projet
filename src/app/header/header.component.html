@@ -1,0 +1,173 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+</head>
+<body>
+
+
+    <header class="bg-light py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="header-left">
+                    <a href="#"><img src="path/to/logo.png" alt="Woodly Mood Logo" class="logo"></a>
+                </div>
+                <div class="header-center">
+                    <a href="#" class="text-dark">CATALOGUE</a>
+                    <a href="#" class="text-dark">PROMOTION</a>
+                    <a href="#" class="text-dark">PERSONNALISER</a>
+                    <a href="#" class="text-dark">BLOG</a>
+                </div>
+                <div class="header-right">
+                    <a href="#" class="text-dark">Inscrivez-vous</a>
+                    <a href="#" class="text-dark">Contactez-nous</a>
+                    <a href="#" class="text-dark">Suivi commande</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woody Mood</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="top-bar bg-light text-center py-2">
+    <span>-10% pour votre premier achat | Disponible de Lundi à Vendredi : 9h à 17h | Inscrivez-vous | Contactez-nous | Suivi commande</span>
+</div>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="logo.png" alt="Woody Mood" width="150"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Catalogue</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Promotion</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Personnaliser</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Promotional Banner -->
+<div id="promoCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="promo.jpg" class="d-block w-100" alt="Promotion">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Des promotions jusqu'au 50%</h5>
+                <a href="#" class="btn btn-primary">J'en profite</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Categories Section -->
+<div class="container mt-5 text-center">
+    <div class="row">
+        <div class="col-md-2"><i class="icon-salon"></i><p>Salon</p></div>
+        <div class="col-md-2"><i class="icon-chambre"></i><p>Chambre</p></div>
+        <div class="col-md-2"><i class="icon-cuisine"></i><p>Cuisine</p></div>
+        <div class="col-md-2"><i class="icon-salle-de-bain"></i><p>Salle de bain</p></div>
+        <div class="col-md-2"><i class="icon-jardin"></i><p>Jardin</p></div>
+        <div class="col-md-2"><i class="icon-bureau"></i><p>Bureau</p></div>
+    </div>
+</div>
+
+<!-- Promo Section -->
+<div class="container mt-5">
+    <h2 class="text-center">Nos Promos</h2>
+    <div class="row">
+        <!-- Product Card Example -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="commode.jpg" class="card-img-top" alt="Commode en bois">
+                <div class="card-body">
+                    <h5 class="card-title">Commode en bois</h5>
+                    <p class="card-text">Commode en bois de teck 120 cm</p>
+                    <p class="card-text">Prix: 220 TND <br> <del>150 TND</del></p>
+                    <span class="badge badge-success">En stock</span>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat similar structure for other products -->
+    </div>
+</div>
+
+<!-- Exclusive Section -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="exclusive.jpg" class="img-fluid" alt="Exclusive">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+            <div>
+                <h2>Exclusivement pour vous !</h2>
+                <p>Offrez-vous des pièces uniques qui ne sont disponibles qu'ici.</p>
+                <a href="#" class="btn btn-primary">Personnaliser</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Liens</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Catalogue</a></li>
+                    <li><a href="#">Promotion</a></li>
+                    <li><a href="#">Personnaliser</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Aide et Services</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Options de paiement</a></li>
+                    <li><a href="#">Livraison et retours</a></li>
+                    <li><a href="#">Garantie et réparation</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Contactez-Nous</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-pinterest"></i> Pinterest</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

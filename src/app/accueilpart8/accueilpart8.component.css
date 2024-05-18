@@ -1,0 +1,250 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+.rectangle333 {
+  position: absolute;
+  left: 445px;
+  top: 5760px;
+  width: 265px;
+  height: 202px;
+  border-radius: 25px;
+  background-color: #faf5f5;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.deliveryTruck_2769339 {
+  position: absolute;
+  left: 542px;
+  top: 5800px;
+  width: 70px;
+  height: 70px;
+  background-image: url('../accueilpart8/delivery-truck_2769339.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.livraisonEtExpedition {
+  color: #3e6259;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 496px;
+  top: 5870px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.livraisonFiableEtRapide {
+  color: #000;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 500px;
+  top: 5903px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle283 {
+  position: absolute;
+  left: 160px;
+  top: 5760px;
+  width: 265px;
+  height: 202px;
+  border-radius: 25px;
+  background-color: #faf5f5;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.garantie1 {
+  position: absolute;
+  left: 259px;
+  top: 5794px;
+  width: 60px;
+  height: 60px;
+  background-image: url('../accueilpart8/garantie\ 1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.garantieDeRetour {
+  color: #3e6259;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 220px;
+  top: 5870px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.produitsDeQualite {
+  color: #000;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 225px;
+  top: 5903px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle335 {
+  position: absolute;
+  left: 1015px;
+  top: 5760px;
+  width: 264px;
+  height: 202px;
+  border-radius: 25px;
+  background-color: #faf5f5;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.satisfaction {
+  position: absolute;
+  left: 1121px;
+  top: 5795px;
+  width: 60px;
+  height: 60px;
+  background-image: url('../accueilpart8/satisfaction.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.satisfactionGarantie {
+  color: #3e6259;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1076px;
+  top: 5870px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.servicesDeQualite {
+  color: #000;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1087px;
+  top: 5902px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle334 {
+  position: absolute;
+  left: 730px;
+  top: 5760px;
+  width: 265px;
+  height: 202px;
+  border-radius: 25px;
+  background-color: #faf5f5;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+._16111731 {
+  position: absolute;
+  left: 831px;
+  top: 5794px;
+  width: 60px;
+  height: 60px;
+  background-image: url('../accueilpart8/1611173\ 1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.reduction {
+  color: #3e6259;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 825px;
+  top: 5870px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.lesMeilleursPrix {
+  color: #000;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 805px;
+  top: 5903px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+

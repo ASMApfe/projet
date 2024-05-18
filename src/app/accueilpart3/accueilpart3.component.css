@@ -1,0 +1,124 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+.organizeItAllBambooDoubleWide3 {
+  position: absolute;
+  left: 160px;
+  top: 2403px;
+  width: 550px;
+  height: 572px;
+  border-radius: 25px;
+  background-image: url('../accueilpart3/Organize\ It\ All\ Bamboo\ Double\ Wide\ 3-Tier\ Shelf\ 2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle337 {
+  position: absolute;
+  left: 730px;
+  top: 2403px;
+  width: 550px;
+  height: 572px;
+  border-radius: 25px;
+  background-color: #faf5f5;
+}
+.exclusivementPourVous {
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 789px;
+  top: 2540px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+  
+}
+.offrezVousDesPiecesUniquesQuiN {
+  position: absolute;
+  left: 789px;
+  top: 2630px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  
+}
+.textBlock {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock2 {
+  margin-top: 0;
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.rectangle338 {
+  position: absolute;
+  left: 789px;
+  top: 2739px;
+  width: 217px;
+  height: 62px;
+  border-radius: 10px;
+  background-color: #bf8c60;
+}
+.personnaliser {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 814px;
+  top: 2756px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}

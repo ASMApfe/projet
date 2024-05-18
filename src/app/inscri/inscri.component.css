@@ -1,0 +1,49 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header-left img {
+    max-height: 50px;
+}
+
+.header-center a {
+    margin: 0 15px;
+}
+
+.header-right a {
+    margin: 0 10px;
+}
+
+.creerMonCompte {
+    color: #000;
+    font-weight: bold;
+}
+
+.creerMonCompte2 {
+    background-color: #bf8c60;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.oeil {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+

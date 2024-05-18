@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woody Mood - Personnaliser</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="logo.png" alt="Woody Mood Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Catalogue</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Promotion</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Personnaliser</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="upload-box">
+                    <img src="placeholder.png" alt="Placeholder Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <h3>C'est quoi personnaliser ?</h3>
+                <p>Woody Mood offre la possibilité de faire personnaliser votre produit...</p>
+                <form>
+                    <div class="form-group">
+                        <label for="bois">Bois</label>
+                        <select class="form-control" id="bois" name="bois">
+                            <option value="bois1">Bois 1</option>
+                            <option value="bois2">Bois 2</option>
+                            <option value="bois3">Bois 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="dimensions">Dimensions en cm :</label>
+                        <input type="number" class="form-control" id="largeur" name="largeur" placeholder="Largeur">
+                        <input type="number" class="form-control" id="longueur" name="longueur" placeholder="Longueur">
+                        <input type="number" class="form-control" id="hauteur" name="hauteur" placeholder="Hauteur">
+                    </div>
+                    <button type="submit" class="btn btn-warning">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Advantages Section -->
+    <div class="advantages container text-center mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="advantage1.png" alt="Advantage 1" class="img-fluid">
+                <p class="mt-2">Paiement sécurisé</p>
+            </div>
+            <div class="col-md-4">
+                <img src="advantage2.png" alt="Advantage 2" class="img-fluid">
+                <p class="mt-2">Livraison à domicile</p>
+            </div>
+            <div class="col-md-4">
+                <img src="advantage3.png" alt="Advantage 3" class="img-fluid">
+                <p class="mt-2">Satisfaction garantie</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Section -->
+    <div class="newsletter container text-center mt-5">
+        <h4>Newsletter</h4>
+        <p>Ne ratez pas nos offres exclusives, codes promo et nouveautés !</p>
+        <form class="form-inline d-flex justify-content-center">
+            <input type="email" class="form-control mb-2 mr"></form>
+    </div>
+</body>
+</html>
