@@ -17,11 +17,12 @@ import { Accueilpart6Component } from './accueilpart6/accueilpart6.component';
 import { Accueilpart7Component } from './accueilpart7/accueilpart7.component';
 import { Accueilpart8Component } from './accueilpart8/accueilpart8.component';
 import { Accueilpart9Component } from './accueilpart9/accueilpart9.component';
+import { PersoComponent } from './perso/perso.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FooterComponent, DownfooterComponent, InscriptionComponent, InscriComponent, HeaderComponent, PersonnaliserComponent, AccueilComponent, Accueil2Component, Accueilpart1Component, Accueilpart2Component, Accueilpart3Component, Accueilpart4Component, Accueilpart5Component, Accueilpart6Component, Accueilpart7Component, Accueilpart8Component, Accueilpart9Component],
+  imports: [RouterOutlet, FooterComponent, DownfooterComponent, InscriptionComponent, InscriComponent, HeaderComponent, PersonnaliserComponent, AccueilComponent, Accueil2Component, Accueilpart1Component, Accueilpart2Component, Accueilpart3Component, Accueilpart4Component, Accueilpart5Component, Accueilpart6Component, Accueilpart7Component, Accueilpart8Component, Accueilpart9Component, PersoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
